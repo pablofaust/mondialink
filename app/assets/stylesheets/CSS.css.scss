@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+$text-color: #666666;
+
+$font-family-sans-serif:                 'Myriad Pro', 'Helvetica Neue', Helvetica, sans-serif;
+
+
+$headings-font-family: 'Myriad Pro', Sans Serif;
+$headings-color: #666666;
+
+$navbar-default-bg: black;
+$navbar-margin-bottom: -20px;
+
+$navbar-border-radius: 0%;
+
+$btn-font-weight: bold;
+
+$btn-success-bg: #F29400;
+
+$btn-warning-bg: #175BA2;
+
+$btn-info-bg: #15AFE1;
+
+$jumbotron-padding: 5px;
+$jumbotron-heading-color: #ffffff;
+
+@import 'bootstrap';
+
+.navbar-header {
+    padding: 10px;
+ }
+
+ .navbar-right {
+    padding: 10px;
+    margin: 10px;
+ }
+
+.navbar-brand {
+	float:none;
+}
+
+.btn {
+	margin: 20px;
+}
+
+.btn > h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 5px;
+}
+
+
+body { 
+  background: url(diversite.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	width: 60%;
+}
+
+.jumbotron > h1 {
+	font-size: 40px;
+}
+
+.jumbotron > h2 {
+	font-size: 50px;
+	color: #ffffff;
+}
+
+.vertical-center {
+  width:100%;
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+}
+
+
+
+

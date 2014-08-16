@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  root "pages#en"
+  get "fr" => "pages#fr"
+  get "services" => "pages#services"
+  get "es" => "pages#es"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
